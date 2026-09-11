@@ -20,10 +20,7 @@ export default function Home(){
         justifyContent:"center",
         flexDirection:"column"
       }}>
-       <TextInput onChange={()=>{
-        alert("hi")
-
-       }} 
+       <TextInput
        size="big" 
        placeholder="Enter Room Code">
 
